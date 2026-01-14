@@ -1,0 +1,61 @@
+---
+title: "DC Orders Overview"
+description: "Order DC (Distribution Center) items for your store location"
+---
+
+import { site_url } from "/variables/url.mdx";
+
+## Purpose
+
+Order DC (Distribution Center) items for your store location.
+
+## Access
+
+Any store employee can access this page.
+
+<Card
+  title="Access DC Orders"
+  icon="external-link"
+  href={`${site_url}/store-supplies/dc-orders`}
+  target="_blank"
+  horizontal
+/>
+
+## How It Works
+
+The DC Orders system allows you to:
+1. Search for items you need
+2. Drag and drop items into your order
+3. Review and submit your order
+
+## Documentation Sections
+
+<CardGroup cols={2}>
+  <Card
+    title="Ordering Items"
+    icon="shopping-cart"
+    href="/dc-orders/user/ordering-items"
+  >
+    Learn how to create and submit new orders by searching for items and dragging them into your order.
+  </Card>
+  <Card
+    title="Viewing Orders"
+    icon="eye"
+    href="/dc-orders/user/viewing-orders"
+  >
+    Learn how to view and manage your orders.
+  </Card>
+  <Card
+    title="Managing Items (Home Office)"
+    icon="building"
+    href="/dc-orders/admin/managing-items"
+  >
+    Learn how home office administrators create and manage orders with store location selection and item management.
+  </Card>
+</CardGroup>
+
+---
+
+import Footer from '../snippets/footer.mdx';
+
+<Footer />

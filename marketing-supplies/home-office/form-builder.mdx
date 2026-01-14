@@ -1,0 +1,172 @@
+---
+title: "Form Builder"
+description: "Learn how to build and customize marketing supply request forms"
+---
+
+## Getting Started
+
+### Adding Questions
+
+You can add a new question at the top level, or you can go to each section and add a question to that specific section:
+
+![Add to Section](/images/add-to-section.png)
+
+### Reordering Form Elements
+
+You can click and drag rows to move their position in the form. The order the elements appear in the list is how they will be displayed in the form.
+
+### Editing Sections
+
+You can also edit sections:
+
+![Edit Sections](/images/edit-sections.png)
+
+## Data Structure
+
+In the admin list, we have the following columns:
+- **Title** - The question or label text
+- **Subtitle** - Optional additional text
+- **Section** - Which section the question belongs to
+- **Input Type** - The type of form input
+- **Dropdown Options** - Options for dropdown and likert inputs (comma-separated values)
+- **Likert Options** - Options for likert scale inputs (comma-separated values)
+
+## Input Types
+
+### Text Input
+
+**Required Fields:** Title, Section, Input Type
+
+**Example Data:**
+
+```
+Title: Are there any other marketing materials you need that were not listed?
+Section: Marketing Supplies
+Input Type: Text
+```
+
+**Resulting Form Input:**
+
+![Text Input](/images/text-input.png)
+
+### Number Input
+
+**Required Fields:** Title, Section, Input Type
+
+**Example Data:**
+
+```
+Title: How many items do you need?
+Section: Marketing Supplies
+Input Type: Number
+```
+
+Same structure as text input, but accepts numeric values only.
+
+### Date Input
+
+**Required Fields:** Title, Section, Input Type
+
+**Example Data:**
+
+```
+Title: What are the dates of the Norma event?
+Section: Norma mascot request
+Input Type: Date
+```
+
+**Resulting Form Input:**
+
+![Date Input](/images/date.png)
+
+### Dropdown Single
+
+Single-select dropdown that allows users to choose one option.
+
+**Required Fields:** Title, Section, Input Type, Dropdown Options
+
+**Example Data:**
+
+```
+Title: Do you need Murdoch's Logo Stickers?
+Section: Marketing Materials
+Input Type: Dropdown Single
+Dropdown Options: 100,200,300
+```
+
+**Resulting Form Input:**
+
+![Dropdown Single](/images/dropdown-single.png)
+
+### Dropdown Multiple
+
+Multiple-select dropdown that allows users to choose multiple values.
+
+**Required Fields:** Title, Section, Input Type, Dropdown Options
+
+**Example Data:**
+
+```
+Title: Which marketing materials do you need?
+Section: Marketing Materials
+Input Type: Dropdown Multiple
+Dropdown Options: Brochures,Flyers,Posters,Banners
+```
+
+**Resulting Form Input:**
+
+![Dropdown Multiple](/images/dropdown-multiple.png)
+
+### Likert
+
+A likert scale input that combines dropdown options with likert scale options.
+
+**Required Fields:** Title, Section, Input Type, Dropdown Options, Likert Options
+
+**Example Data:**
+
+```
+Title: Murdoch's Rewards - Signage
+Section: Marketing Materials
+Input Type: Likert
+Dropdown Options: 4,6,8
+Likert Options: Register Sign - English,Register Sign - Spanish,Poster - English,Poster - Spanish
+```
+
+**Resulting Form Input:**
+
+![Likert](/images/likert.png)
+
+### Checkbox
+
+**Required Fields:** Title, Section, Input Type
+
+**Example Data:**
+
+```
+Title: I agree to the terms and conditions
+Section: Marketing Supplies
+Input Type: Checkbox
+```
+
+**Resulting Form Input:**
+
+![Checkbox](/images/checkbox.png)
+
+## Important Notes
+
+<Warning>
+  When creating dropdowns and likerts, do NOT include spaces after or before commas in the comma-separated values.
+  
+  **Correct Format:**
+  - `"1,2,3"` (without spaces) ✅
+  
+  **Incorrect Format:**
+  - `"1, 2, 3"` (with spaces) ❌
+</Warning>
+
+---
+
+import Footer from '../../snippets/footer.mdx';
+
+<Footer />

@@ -1,97 +1,89 @@
 ---
 title: "Introduction"
-description: "Welcome to the new home for your documentation"
+description: "Welcome to Murdoch's Internal Sites Documentation"
 ---
 
-## Setting up
+## Welcome
 
-Get your documentation site up and running in minutes.
+Welcome to the documentation for Murdoch's internal sites. This documentation covers all the tools and applications available to help you manage repairs, orders, marketing supplies, and more.
+
+## Getting Started
+
+Before you begin, make sure you understand how to access and authenticate with our internal systems.
+
+<CardGroup cols={2}>
+  <Card
+    title="Authentication"
+    icon="key"
+    href="/getting-started/authentication"
+  >
+    Learn how to log in to access the internal sites.
+  </Card>
+  <Card
+    title="Access Requirements"
+    icon="shield-check"
+    href="/getting-started/access-requirements"
+  >
+    Understand the access requirements for different systems.
+  </Card>
+</CardGroup>
+
+## Applications
+
+### Repairs
+
+Manage customer-ordered repairs and track them from initiation to completion.
 
 <Card
-  title="Start here"
-  icon="rocket"
-  href="/quickstart"
+  title="Repairs Overview"
+  icon="wrench"
+  href="/repairs/overview"
   horizontal
 >
-  Follow our three step quickstart guide.
+  Learn how to create, view, and manage repair orders. Available to all authenticated users with different views based on user role.
 </Card>
 
-## Make it yours
+### DC Orders
 
-Design a docs site that looks great and empowers your users.
-
-<Columns cols={2}>
-  <Card
-    title="Edit locally"
-    icon="pen-to-square"
-    href="/development"
-  >
-    Edit your docs locally and preview them in real time.
-  </Card>
-  <Card
-    title="Customize your site"
-    icon="palette"
-    href="/essentials/settings"
-  >
-    Customize the design and colors of your site to match your brand.
-  </Card>
-    <Card
-    title="Set up navigation"
-    icon="map"
-    href="/essentials/navigation"
-  >
-    Organize your docs to help users find what they need and succeed with your product.
-  </Card>
-  <Card
-    title="API documentation"
-    icon="terminal"
-    href="/api-reference/introduction"
-  >
-    Auto-generate API documentation from OpenAPI specifications.
-  </Card>
-</Columns>
-
-## Create beautiful pages
-
-Everything you need to create world-class documentation.
-
-<Columns cols={2}>
-  <Card
-    title="Write with MDX"
-    icon="pen-fancy"
-    href="/essentials/markdown"
-  >
-    Use MDX to style your docs pages.
-  </Card>
-  <Card
-    title="Code samples"
-    icon="code"
-    href="/essentials/code"
-  >
-    Add sample code to demonstrate how to use your product.
-  </Card>
-  <Card
-    title="Images"
-    icon="image"
-    href="/essentials/images"
-  >
-    Display images and other media.
-  </Card>
-  <Card
-    title="Reusable snippets"
-    icon="recycle"
-    href="/essentials/reusable-snippets"
-  >
-    Write once and reuse across your docs.
-  </Card>
-</Columns>
-
-## Need inspiration?
+Order DC (Distribution Center) items for your store location.
 
 <Card
-  title="See complete examples"
-  icon="stars"
-  href="https://mintlify.com/customers"
+  title="DC Orders Overview"
+  icon="shopping-cart"
+  href="/dc-orders/overview"
+  horizontal
 >
-  Browse our showcase of exceptional documentation sites.
+  Search for items, drag and drop them into your order, and submit requests. Available to any store employee.
 </Card>
+
+### Marketing Supplies
+
+Request marketing materials and supplies for your store location through a customizable form system.
+
+<Card
+  title="Marketing Supplies Overview"
+  icon="file-pen"
+  href="/marketing-supplies/overview"
+  horizontal
+>
+  Submit marketing supply requests. Home office marketing staff can edit forms and manage requests.
+</Card>
+
+### Phone Book
+
+View contact information for all stores and home office employees.
+
+<Card
+  title="Phone Book Overview"
+  icon="address-book"
+  href="/phone-book/overview"
+  horizontal
+>
+  Access store phone lists, home office directories, and contact information including extensions, emails, and Teams integration.
+</Card>
+
+---
+
+import Footer from './snippets/footer.mdx';
+
+<Footer />

@@ -1,0 +1,62 @@
+---
+title: "Phone Book Overview"
+description: "View store and home office contact information, phone numbers, and extensions"
+---
+
+import { site_url } from "/variables/url.mdx";
+
+## Purpose
+
+Access the phone book to view contact information for all stores and home office employees.
+
+<Card
+  title="Access Phone Book"
+  icon="external-link"
+  href={`${site_url}/phones`}
+  target="_blank"
+  horizontal
+/>
+
+## Store Phone List
+
+You can search and view all stores. Here you can find:
+- Store address
+- Extension and phone number
+- GL accountant and their email
+- Store leadership team including all ASMs, managers, and leads with their extensions
+
+![Phone List Desktop](/images/phone-list-desktop.png)
+
+<div style={{ display: 'flex', gap: '1rem' }}>
+  <img src="/images/phone-list-mobile-1.png" alt="Phone List Mobile 1" style={{ flex: 1, maxWidth: '50%' }} />
+  <img src="/images/phone-list-mobile-2.png" alt="Phone List Mobile 2" style={{ flex: 1, maxWidth: '50%' }} />
+</div>
+
+## Home Office Phone List
+
+You can search all home office employees by name, job title, or department. Here you can view:
+- Profile picture
+- Department
+- Job title
+- Extension and phone number
+- Email address
+
+**Additional Actions:**
+- Click the email icon to send them an email
+- Click the Teams icon to send them a Teams message
+
+![Admin List Desktop](/images/admin-list-desktop.png)
+
+![Admin List Mobile](/images/admin-list-mobile.png)
+
+## All Stores
+
+Here you can view all stores and their GL numbers:
+
+![All Stores](/images/all-stores.png)
+
+---
+
+import Footer from '../snippets/footer.mdx';
+
+<Footer />

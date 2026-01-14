@@ -1,0 +1,58 @@
+---
+title: "Repairs Overview"
+description: "Manage customer-ordered repairs. Track repairs from initiation to completion"
+---
+
+import { site_url } from "/variables/url.mdx";
+
+## Purpose
+
+Manage customer-ordered repairs. Track repairs from initiation to completion.
+
+## Access
+
+Available to all authenticated users. Different views based on user role:
+
+- **Shop View:** For shop employees
+- **Employee View:** For store employees
+- **Admin View:** For home office staff
+
+<Card
+  title="Access the Repairs app"
+  icon="external-link"
+  href={`${site_url}/repairs/`}
+  target="_blank"
+  horizontal
+/>
+
+## Documentation Sections
+
+<CardGroup cols={2}>
+  <Card
+    title="Creating Repairs"
+    icon="wrench"
+    href="/repairs/user/ordering-items"
+  >
+    Learn how to create and submit new repair orders in the Repairs app.
+  </Card>
+  <Card
+    title="Managing Repairs"
+    icon="eye"
+    href="/repairs/user/viewing-orders"
+  >
+    Learn how to view, edit, and manage your repair orders.
+  </Card>
+  <Card
+    title="Managing Repairs (Home Office)"
+    icon="building"
+    href="/repairs/admin/managing-items"
+  >
+    Learn how home office administrators create and manage repair orders with store location selection.
+  </Card>
+</CardGroup>
+
+---
+
+import Footer from '../snippets/footer.mdx';
+
+<Footer />

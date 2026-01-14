@@ -1,122 +1,139 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mint Starter Kit",
-  "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
-  },
-  "favicon": "/favicon.svg",
-  "navigation": {
-    "tabs": [
-      {
-        "tab": "Guides",
+    "$schema": "https://mintlify.com/docs.json",
+    "theme": "mint",
+    "name": "Murdoch's Internal Sites Documentation",
+    "colors": {
+        "primary": "#2563EB",
+        "light": "#3B82F6",
+        "dark": "#1E40AF"
+    },
+    "background": {
+        "light": "#FAFAFA",
+        "dark": "#0F172A"
+    },
+    "favicon": "/favicon.svg",
+    "navigation": {
         "groups": [
-          {
-            "group": "Getting started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
+            {
+                "group": "Getting Started",
+                "pages": [
+                    "getting-started/authentication",
+                    "getting-started/access-requirements"
+                ]
+            },
+            {
+                "group": "Repairs",
+                "pages": [
+                    "repairs/overview",
+                    {
+                        "group": "User Guide",
+                        "pages": [
+                            "repairs/user/ordering-items",
+                            "repairs/user/viewing-orders"
+                        ]
+                    },
+                    {
+                        "group": "Home Office Guide",
+                        "pages": [
+                            "repairs/admin/managing-items"
+                        ]
+                    }
+                ]
+            },
+            {
+                "group": "DC Orders",
+                "pages": [
+                    "dc-orders/overview",
+                    {
+                        "group": "User Guide",
+                        "pages": [
+                            "dc-orders/user/ordering-items",
+                            "dc-orders/user/viewing-orders"
+                        ]
+                    },
+                    {
+                        "group": "Home Office Guide",
+                        "pages": [
+                            "dc-orders/admin/managing-items"
+                        ]
+                    }
+                ]
+            },
+            {
+                "group": "Marketing Supplies",
+                "pages": [
+                    "marketing-supplies/overview",
+                    {
+                        "group": "User Guide",
+                        "pages": [
+                            "marketing-supplies/user/filling-form"
+                        ]
+                    },
+                    {
+                        "group": "Admin Guide",
+                        "pages": [
+                            "marketing-supplies/home-office/managing-data",
+                            "marketing-supplies/home-office/form-builder",
+                            "marketing-supplies/home-office/fullfilling-requests"
+                        ]
+                    }
+                ]
+            },
+            {
+                "group": "Phone Book",
+                "pages": [
+                    "phone-book/overview"
+                ]
+            }
+        ],
+        "global": {
+            "anchors": [
+                {
+                    "anchor": "Introduction",
+                    "href": "/",
+                    "icon": "home"
+                },
+                {
+                    "anchor": "Visit Site",
+                    "href": "https://peerdevwebapp-hfcncwbmf7faaud7.westus2-01.azurewebsites.net",
+                    "icon": "book-open-cover"
+                }
             ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
         }
-      ]
+    },
+    "logo": {
+        "light": "/logo/black_logo.jpg",
+        "dark": "/logo/logo.png"
+    },
+    "navbar": {
+        "links": [
+            {
+                "label": "Home",
+                "href": "/"
+            },
+            {
+                "label": "IT Support",
+                "href": "https://murdochs.desk365.io/app/tickets/createticket"
+            }
+        ]
+    },
+    "contextual": {
+        "options": [
+            "copy",
+            "view",
+            "chatgpt",
+            "claude",
+            "perplexity",
+            "mcp",
+            "cursor",
+            "vscode"
+        ]
+    },
+    "footer": {
+        "socials": {
+            "x": "https://x.com/mintlify",
+            "github": "https://github.com/mintlify",
+            "linkedin": "https://linkedin.com/company/mintlify"
+        }
     }
-  },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
-  },
-  "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
-  }
 }

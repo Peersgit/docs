@@ -1,0 +1,23 @@
+/* Increase logo size in Mintlify */
+/* Target the logo in the navbar */
+nav a[href="/"] img,
+nav img,
+header img,
+[class*="logo"] img,
+img[src*="logo"] {
+    height: auto !important;
+    max-height: 60px !important;
+    width: auto !important;
+    max-width: 200px !important;
+    transform: scale(1) !important;
+}
+
+/* More specific selector for Mintlify's logo container */
+nav > div > a > img,
+nav > a:first-child > img {
+    height: auto !important;
+    max-height: 60px !important;
+    width: auto !important;
+    max-width: 200px !important;
+    transform: scale(1) !important;
+}
