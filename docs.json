@@ -11,7 +11,7 @@
         "light": "#FAFAFA",
         "dark": "#0F172A"
     },
-    "favicon": "/favicon.svg",
+    "favicon": "fun1.svg",
     "navigation": {
         "groups": [
             {
@@ -89,7 +89,7 @@
         "global": {
             "anchors": [
                 {
-                    "anchor": "Introduction",
+                    "anchor": "Welcome",
                     "href": "/",
                     "icon": "home"
                 },
@@ -107,10 +107,6 @@
     },
     "navbar": {
         "links": [
-            {
-                "label": "Home",
-                "href": "/"
-            },
             {
                 "label": "IT Support",
                 "href": "https://murdochs.desk365.io/app/tickets/createticket"
