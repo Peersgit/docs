@@ -3,9 +3,9 @@
     "theme": "maple",
     "name": "Murdoch's Internal Sites Documentation",
     "colors": {
-        "primary": "#2563EB",
-        "light": "#3B82F6",
-        "dark": "#1E40AF"
+      "primary": "#26d3eb",
+      "light": "#66f1ff",
+      "dark": "#1ea6b0"
     },
     "background": {
         "light": "#FAFAFA",
