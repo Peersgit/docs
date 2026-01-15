@@ -3,9 +3,9 @@
     "theme": "almond",
     "name": "Murdoch's Internal Sites Documentation",
     "colors": {
-      "primary": "#26d3eb",
-      "light": "#66f1ff",
-      "dark": "#1ea6b0"
+      "primary": "#6366f1",
+      "light": "#818cf8",
+      "dark": "#4f46e5"
     },
     "background": {
         "light": "#FAFAFA",
@@ -103,7 +103,7 @@
         }
     },
     "logo": {
-        "light": "/logo/black_logo.jpg",
+        "light": "/logo/main_logo.jpg",
         "dark": "/logo/logo.png"
     },
     "navbar": {
