@@ -1,12 +1,7 @@
 {
     "$schema": "https://mintlify.com/docs.json",
-<<<<<<< Updated upstream
     "theme": "maple",
     "name": "Murdoch's Internal Sites Documentation",
-=======
-    "theme": "mint",
-    "name": "Murdoch's Internal Apps Documentation",
->>>>>>> Stashed changes
     "colors": {
         "primary": "#2563EB",
         "light": "#3B82F6",
