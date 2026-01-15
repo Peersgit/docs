@@ -23,67 +23,72 @@
                 ]
             },
             {
-                "group": "Repairs",
+                "group": "Applications",
                 "pages": [
-                    "repairs/overview",
                     {
-                        "group": "Team Member Guide",
+                        "group": "Repairs",
                         "pages": [
-                            "repairs/user/ordering-items",
-                            "repairs/user/viewing-orders"
+                            "repairs/overview",
+                            {
+                                "group": "Team Member Guide",
+                                "pages": [
+                                    "repairs/user/ordering-items",
+                                    "repairs/user/viewing-orders"
+                                ]
+                            },
+                            {
+                                "group": "Home Office Guide",
+                                "pages": [
+                                    "repairs/admin/managing-items"
+                                ]
+                            }
                         ]
                     },
                     {
-                        "group": "Home Office Guide",
+                        "group": "DC Supplies",
                         "pages": [
-                            "repairs/admin/managing-items"
-                        ]
-                    }
-                ]
-            },
-            {
-                "group": "DC Orders",
-                "pages": [
-                    "dc-orders/overview",
-                    {
-                        "group": "Team Member Guide",
-                        "pages": [
-                            "dc-orders/user/ordering-items",
-                            "dc-orders/user/viewing-orders"
-                        ]
-                    },
-                    {
-                        "group": "Home Office Guide",
-                        "pages": [
-                            "dc-orders/admin/managing-items"
-                        ]
-                    }
-                ]
-            },
-            {
-                "group": "Marketing Supplies",
-                "pages": [
-                    "marketing-supplies/overview",
-                    {
-                        "group": "Team Member Guide",
-                        "pages": [
-                            "marketing-supplies/user/filling-form"
+                            "dc-orders/overview",
+                            {
+                                "group": "Team Member Guide",
+                                "pages": [
+                                    "dc-orders/user/ordering-items",
+                                    "dc-orders/user/viewing-orders"
+                                ]
+                            },
+                            {
+                                "group": "Home Office Guide",
+                                "pages": [
+                                    "dc-orders/admin/managing-items"
+                                ]
+                            }
                         ]
                     },
                     {
-                        "group": "Home Office Guide",
+                        "group": "Marketing Supplies",
                         "pages": [
-                            "marketing-supplies/home-office/managing-data",
-                            "marketing-supplies/home-office/form-builder",
-                            "marketing-supplies/home-office/fullfilling-requests"
+                            "marketing-supplies/overview",
+                            {
+                                "group": "Team Member Guide",
+                                "pages": [
+                                    "marketing-supplies/user/filling-form"
+                                ]
+                            },
+                            {
+                                "group": "Home Office Guide",
+                                "pages": [
+                                    "marketing-supplies/home-office/managing-data",
+                                    "marketing-supplies/home-office/form-builder",
+                                    "marketing-supplies/home-office/fullfilling-requests"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Phone Book",
+                        "pages": [
+                            "phone-book/overview"
                         ]
                     }
-                ]
-            },
-            {
-                "group": "Phone Book",
-                "pages": [
-                    "phone-book/overview"
                 ]
             }
         ],
@@ -97,7 +102,7 @@
                 {
                     "anchor": "Visit Site",
                     "href": "https://peerdevwebapp-hfcncwbmf7faaud7.westus2-01.azurewebsites.net",
-                    "icon": "book-open-cover"
+                    "icon": "globe-pointer"
                 }
             ]
         }
@@ -125,13 +130,6 @@
             "cursor",
             "vscode"
         ]
-    },
-    "footer": {
-        "socials": {
-            "x": "https://x.com/mintlify",
-            "github": "https://github.com/mintlify",
-            "linkedin": "https://linkedin.com/company/mintlify"
-        }
     },
     "appearance": {
       "strict": true,
