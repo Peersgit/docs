@@ -1,7 +1,12 @@
 {
     "$schema": "https://mintlify.com/docs.json",
+<<<<<<< Updated upstream
     "theme": "maple",
     "name": "Murdoch's Internal Sites Documentation",
+=======
+    "theme": "mint",
+    "name": "Murdoch's Internal Apps Documentation",
+>>>>>>> Stashed changes
     "colors": {
         "primary": "#2563EB",
         "light": "#3B82F6",
@@ -18,7 +23,8 @@
                 "group": "Getting Started",
                 "pages": [
                     "getting-started/authentication",
-                    "getting-started/access-requirements"
+                    "getting-started/access-requirements",
+                    "getting-started/site-navigation"
                 ]
             },
             {
@@ -26,7 +32,7 @@
                 "pages": [
                     "repairs/overview",
                     {
-                        "group": "User Guide",
+                        "group": "Team Member Guide",
                         "pages": [
                             "repairs/user/ordering-items",
                             "repairs/user/viewing-orders"
@@ -45,7 +51,7 @@
                 "pages": [
                     "dc-orders/overview",
                     {
-                        "group": "User Guide",
+                        "group": "Team Member Guide",
                         "pages": [
                             "dc-orders/user/ordering-items",
                             "dc-orders/user/viewing-orders"
@@ -64,13 +70,13 @@
                 "pages": [
                     "marketing-supplies/overview",
                     {
-                        "group": "User Guide",
+                        "group": "Team Member Guide",
                         "pages": [
                             "marketing-supplies/user/filling-form"
                         ]
                     },
                     {
-                        "group": "Admin Guide",
+                        "group": "Home Office Guide",
                         "pages": [
                             "marketing-supplies/home-office/managing-data",
                             "marketing-supplies/home-office/form-builder",
